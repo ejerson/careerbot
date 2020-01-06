@@ -1,9 +1,67 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <aiml>
-  <category>
+
+<category>
     <pattern>*</pattern>
-    <template>I have no answer for that.</template>
-  </category>
-  
-  
+    <template>
+        Hello! I am your career advisor bot. Would you like some help with deciding on your future career path?
+        
+        <reply>
+            <text>Yes</text>
+            <postback>HELPYES</postback>
+        </reply>
+        
+        <reply>
+            <text>No</text>
+            <postback>HELPNO</postback>
+        </reply>
+        
+    </template>
+</category>
+
+
+
+<category>
+    
+    <pattern>HELPYES</pattern>
+    <template>
+        To get us started, could you answer this question:<delay>5</delay>
+        What do you consider to be your greatest strength or preference?
+        <reply>
+            <text>Coding</text>
+            <postback>CODE</postback>
+        </reply>
+        
+        <reply>
+            <text>Managing</text>
+            <postback>MANAGE</postback>
+        </reply>
+        
+        <reply>
+            <text>Teaching</text>
+            <postback>TEACH</postback>
+        </reply>
+        
+        <reply>
+            <text>Designing</text>
+            <postback>DESIGN</postback>
+        </reply>
+    </template>
+</category>
+
+
+    
+<category>
+    <pattern>HELPNO</pattern>
+    <template>
+        Please email your career advisor at career_advisor@university.com to schedule a one-on-one meeting.
+        Otherwise, please clink on "I need career help now" to receive immediate help.
+    
+        <reply>
+            <text>I need help now.</text>
+            <postback>HELPYES</postback>
+        </reply>
+    </template>
+</category>
+    
 </aiml>
