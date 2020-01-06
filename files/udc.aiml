@@ -6,9 +6,11 @@
     <template>
         Hello! I am your career advisor bot. Would you like some help with deciding on your future career path?
         
+     
         <reply>
             <text>Yes</text>
             <postback>HELPYES</postback>
+            <think><set name="topic">STRENGTH</set></think>
         </reply>
         
         <reply>
@@ -20,37 +22,49 @@
 </category>
 
 
+<topic name="STRENGTH">
+    
+<category>
+    <pattern>*</pattern>
+    <template>
+        
+        <srai>HELPYES</srai>
+        
+    </template>
+</category>
 
 <category>
     
     <pattern>HELPYES</pattern>
     <template>
-        To get us started, could you answer this question:<delay>5</delay>
+        To get us started, could you answer this question:<delay>2</delay>
         What do you consider to be your greatest strength or preference?
         <reply>
             <text>Coding</text>
-            <postback>CODE</postback>
+            <postback>CODESTRENGTH</postback>
         </reply>
         
         <reply>
             <text>Managing</text>
-            <postback>MANAGE</postback>
+            <postback>MANAGESTRENGTH</postback>
         </reply>
         
         <reply>
             <text>Teaching</text>
-            <postback>TEACH</postback>
+            <postback>TEACHSTRENGTH</postback>
         </reply>
         
         <reply>
             <text>Designing</text>
-            <postback>DESIGN</postback>
+            <postback>DESIGNSTRENGTH</postback>
         </reply>
     </template>
 </category>
 
-
+</topic>
     
+    
+
 <category>
     <pattern>HELPNO</pattern>
     <template>
@@ -63,5 +77,5 @@
         </reply>
     </template>
 </category>
-    
+
 </aiml>
