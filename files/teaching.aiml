@@ -3,7 +3,10 @@
 	<category>
 	    <pattern>TEACHSTRENGTH</pattern>
 	    <template>
-	        Do some teaching!
+	        There are multiple avenues you can take in order to teach. First, you need to decide what grade level you would like to teach.
+	        <delay>3</delay>
+	        If you decide to teach K-12 students, you may need to acquire a teaching liscence. If you decide you want to teach at a college level,
+	        then getting a Doctorate in a computer science related major would be necessary.
 	        
 	    </template>
     </category>

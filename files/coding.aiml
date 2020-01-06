@@ -21,10 +21,10 @@
                 <postback>WEBDEVELOPMENT</postback>
             </reply>
 
-            <reply>
-                <text>HELP</text>
-                <postback>HELP</postback>
-            </reply>
+            <!--<reply>-->
+            <!--    <text>HELP</text>-->
+            <!--    <postback>HELP</postback>-->
+            <!--</reply>-->
             
             
         </template>

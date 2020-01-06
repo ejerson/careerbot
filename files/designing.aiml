@@ -3,7 +3,12 @@
     <category>
         <pattern>DESIGNSTRENGTH</pattern>
         <template>
-            Do some designing!
+            If you like creating content. You can focus on becoming a UX or UI expert. 
+            To do this, you may benefit from taking design classes and become very familiar with tools that are geared towards 
+            creating web or application medias.
+            <delay>3</delay>
+            You may also enjoy being a solutions architech. Their main job is to bridge the gap between business requirement and
+            actual software implementation. 
             
         </template>
     </category>

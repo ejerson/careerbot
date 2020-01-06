@@ -3,7 +3,13 @@
 	<category>
 	    <pattern>MANAGESTRENGTH</pattern>
 	    <template>
-	        Do some managing!
+	        There are many ways to become a manager. It all depends on what type of manager you would want to be. 
+	        <delay>3</delay>
+	        If you want to become a project manager, taking the CAMP certification exam would be your first step.
+	        After getting enough "project management" hours, you can attempt the PMP exam.
+	        <delay>3</delay>
+	        It may be useful to pursue a certication or a master in information technology management or other business classes or majors.
+	        
 	        
 	    </template>
     </category>
