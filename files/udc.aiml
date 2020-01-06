@@ -1,7 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <aiml>
 
+
 <category>
+    
     <pattern>*</pattern>
     <template>
         Hello! I am your career advisor bot. Would you like some help with deciding on your future career path?
@@ -10,7 +12,6 @@
         <reply>
             <text>Yes</text>
             <postback>HELPYES</postback>
-            <think><set name="topic">STRENGTH</set></think>
         </reply>
         
         <reply>
@@ -21,17 +22,6 @@
     </template>
 </category>
 
-
-<topic name="STRENGTH">
-    
-<category>
-    <pattern>*</pattern>
-    <template>
-        
-        <srai>HELPYES</srai>
-        
-    </template>
-</category>
 
 <category>
     
@@ -61,7 +51,6 @@
     </template>
 </category>
 
-</topic>
     
     
 
@@ -69,7 +58,7 @@
     <pattern>HELPNO</pattern>
     <template>
         Please email your career advisor at career_advisor@university.com to schedule a one-on-one meeting.
-        Otherwise, please clink on "I need career help now" to receive immediate help.
+        Otherwise, please click on "I need career help now" to receive immediate help.
     
         <reply>
             <text>I need help now.</text>

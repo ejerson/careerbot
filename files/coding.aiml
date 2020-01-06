@@ -4,9 +4,82 @@
     <category>
         <pattern>CODESTRENGTH</pattern>
         <template>
-            Do some coding!
+            Which type of software development do you prefer?
+            
+            <reply>
+                <text>Mobile Software Development</text>
+                <postback>MOBILEDEVELOPMENT</postback>
+            </reply>
+            
+            <reply>
+                <text>Enterprise Software Development</text>
+                <postback>ENTERPRISEDEVELOPMENT</postback>
+            </reply>
+            
+            <reply>
+                <text>Web Software Development</text>
+                <postback>WEBDEVELOPMENT</postback>
+            </reply>
+
+            <reply>
+                <text>HELP</text>
+                <postback>HELP</postback>
+            </reply>
+            
             
         </template>
     </category>
+    
+
+    <category>
+        <pattern>MOBILEDEVELOPMENT</pattern>
+        
+        <template>
+            
+            You have two of options when aiming to become a mobile software developer.
+            First, you must decide if you want to create Android apps or iOS apps.
+            If you decide to create Android app, it would good to learn Java or Kotlin programming languages. 
+            Conversely, it would be wise to learn swift for iOS development.
+            <delay>5</delay>
+            Next, it would be wise to also create projects and publish them to showcase your skills to prospective employers.
+            <split/>
+            
+            <delay>5</delay>
+            <srai>CODESTRENGTH</srai>
+            
+        </template>
+    </category>
+
+    <category>
+        <pattern>ENTERPRISEDEVELOPMENT</pattern>
+        
+        <template>
+            
+            Your best option is to either learn Java or C/C++/C# to become an enterprise application developer.
+            There are a number of certification exams that you can take for the aforementioned languages.
+            
+            <delay>5</delay>
+            To become proficient in solving problems, the following resources are useful:
+            
+            
+            <link>
+                <text>1. Codingbat (java, phython)</text>
+                <url>https://codingbat.com/</url>
+            </link>
+            
+            <link>
+                <text>2. Leetcode (all programming languages)</text>
+                <url>https://leetcode.com/</url>
+            </link>
+            <split/>
+            
+            <delay>5</delay>
+            <srai>CODESTRENGTH</srai>
+            
+            
+            
+        </template>
+    </category>
+
 
 </aiml>

@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<aiml version="2.0">
+    
+    <category>
+        <pattern>HELP/MENU</pattern>
+        <template>
+            <li>
+            <button>
+                <text>1. WELCOME</text>
+                <postback>*</postback>
+            </button>
+            </li>
+            
+            <li>
+            <button>
+                <text>2. WHAT DO YOU PREFER?</text>
+                <postback>HELPYES</postback>
+            </button>
+            </li>
+            
+             <!--3. RESUME BUILDER
+             Add this later
+             
+             
+             -->
+            
+            
+            
+        </template>
+    </category>
+    
+    
+</aiml>
