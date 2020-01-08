@@ -61,7 +61,7 @@
         Otherwise, please click on "I need career help now" to receive immediate help.
     
         <reply>
-            <text>I need help now.</text>
+            <text>I need career help now.</text>
             <postback>HELPYES</postback>
         </reply>
     </template>

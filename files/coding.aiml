@@ -80,6 +80,19 @@
             
         </template>
     </category>
+    
+    <category>
+        <pattern>WEBDEVELOPMENT</pattern>
+        <template>
+            For web development, Javascript is the most popular language. It is also important to learn HTML5 and CSS3.
+            <delay>3</delay>
+            Learning JavaScript framework such as React or Angular can increase your chances of getting hired for a job as a front-end web developer.
+            
+            
+            <delay>5</delay>
+            <srai>CODESTRENGTH</srai>
+        </template>
+    </category>
 
 
 </aiml>
